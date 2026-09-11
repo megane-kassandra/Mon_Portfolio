@@ -17,12 +17,12 @@ console.table(titles);
 function isAdult(age) {
     if(age<18){
     console.log("You are a teenager.");
-} else if(age===18){
-    console.log("You become an adult.");
-} else if(age>18){
+} else {
     console.log("You are an adult.");
 }
 return;
 }
 
+isAdult(15);
 isAdult(18);
+isAdult(30);
